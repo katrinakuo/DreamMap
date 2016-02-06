@@ -1,0 +1,81 @@
+/*Background*/
+body {
+	background-color: #F0CBBD;
+}
+
+/* Text */ 
+h1 {
+	color:white;
+	text-align:center;
+	font-family:"Verdana";
+	font-size: 30px;
+}
+
+p {
+	color:white;
+}
+/*Navbar*/
+#header {
+	position:fixed;
+	width:100%;
+	top:0;
+	left:0;
+	padding-bottom: 15px;
+	z-index:9999;
+
+	background-color: #E4BDF0;
+	height:9%;
+
+}
+h1 a:link {
+	color: white;
+	text-decoration:none;
+}
+h1 a:visited {
+	color: white;
+	text-decoration:none;
+}
+h1 a:hover {
+	color: #DC74FC;
+
+}
+
+/*Submit Form*/
+.submitBoxes {
+	position:absolute;
+	top:25%;
+	left:5%;
+
+}
+
+/*Smith Map*/
+.map {
+	position:absolute;
+	width:50%;
+	top:25%;
+	left:25%;
+	right: 25%;
+	height:50%;
+	background-color:blue;
+}
+
+/*Live Feed*/
+.liveFeed{
+	position:absolute;
+	top:25%;
+	right:5%;
+	background-color: purple;
+}
+/*Bottom Bar */
+#bottomBar {
+	position:fixed;
+	width:100%;
+	bottom:0;
+	left:0;
+	text-align: center;
+	background-color: #E4BDF0;
+	height:5%;
+
+}
+
+
